@@ -3,10 +3,13 @@ import torch.nn as nn
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import nltk
 
 # 0.) Prepare the Data
 data_path = "./ML/Projects/Tesla_Predictor_Comparison/wallstreetbets.csv"
 df_data = pd.read_csv(data_path)
+
+
 
 # Learn how to do sentiment analysis
 # # 1.) Model
