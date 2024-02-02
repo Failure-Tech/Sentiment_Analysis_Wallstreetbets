@@ -1,8 +1,1 @@
-This project is about predicting the tesla price in whether it will go up or down based on the sentiment analysis of what wallstreetbets thinks about tesla on a certain day
-
-1.) Collect data from an api or scrape it from a certain source
-2.) Process the data in however way that I want to and make it accessible for the model
-3.) Create the model that takes in the data and also set up loss + (output should just be up, down, neutral)
-4.) Training loop to train the model and make sure it is works
-5.) Deploy the model and then see if I want to make it work on a website or just keep it as is
-
+This project is about running sentiment analysis with NlTK on data scraped from the popular reddit subreddit wallstreetbets and scores it.

@@ -16,7 +16,7 @@ reddit = praw.Reddit(
 
 # can use hot, new, rising, or top
 headlines = []
-for submission in reddit.subreddit('wallstreetbets').hot(limit=None):
+for submission in reddit.subreddit('wallstreetbets').new(limit=None):
     data = {
         "Submission" : submission,
         'Title': submission.title,
